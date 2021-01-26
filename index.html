@@ -25,7 +25,6 @@
     <img src="my_photo.jpeg" alt="Me in Japan" width="500" height="400">
   </picture>
 
-    <script></script>
     </header>
 
             <pre>
@@ -157,7 +156,7 @@
                             <input type="submit">
                           </form>
 
-                          <button>Click Click!</button>
+                          <button onclick="showContent()">Click Click!</button>
 
                           <template>
                               <figure>
@@ -166,7 +165,14 @@
                             </figure>
                           </template>
 
-                          
+                          <script>
+                            function showContent() {
+                              var temp = document.getElementsByTagName("template")[0];
+                              var clon = temp.content.cloneNode(true);
+                              document.body.appendChild(clon);
+                            }
+                            </script>
+                                                      
                           <table>
                             <caption>My Name and Age</caption>
                             <colgroup>
