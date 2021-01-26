@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CSE 134 HW2</title>
+<style>
+  h1 {border: dotted;}
+  </style>
+</head>
+
+<body>
+    <header>
+    <h1>Yuyao Yolanda Cheng's Personal/Fashion Portfolio</h1>
+    <h2>Your fashion buddy and programming pair</h2>
+    <details>
+        <summary>About Me</summary>
+        <p>I am a third-year Computer Engineering student of UCSD. I am also a fashion insider. I want to use this site as a place to share my weekly fashion and coding thoughts. Welcome!</p>
+      </details>
+    <p>Click to play a good song</p>
+    <audio controls>
+        <source src="good_song.mp3" type="audio/mpeg"></audio>
+          
+<picture>
+    <img src="my_photo.jpeg" alt="Me in Japan" width="500" height="400">
+  </picture>
+
+    <script></script>
+    </header>
+
+            <pre>
+                Are you ready to explore the my universe? Let me introduce you the chic!
+                </pre>
+        <main>
+            <h3><i>Trending</i> Products</h3>
+            <p>There are 3 types of hot products this week</p>
+            <ul>
+                <li>Clothing</li>
+                <li>Makeup</li>
+                <li>Perfume</li>
+              </ul>
+
+            <section>
+                <h4>Cashmere Sweaters</h4>
+                <p>The most important characteristic of cashmere sweaters is their softness. They can be worn close to the body. A warm and soft sweater is much needed in winter.</p>
+            </section>
+            <section>
+                <h4>Lipsticks in Milktea Color</h4>
+                <p>Winter is always a time when warm colors are in. The most popular color this winter is definitely milk tea. Brother Ping Pat has launched a milk tea color lipstick. Among them, my favorite is Estee Lauder's milk tea lipstick, it is moist and natural.</p>
+            </section>
+            <section>
+                <h4>Peach Perfumes</h4>
+                <p>This winter we refuse heavy fragrance! The most popular drink this year is probably white peach oolong tea. Using a peach fragrance in winter is refreshing and sweet.</p>
+            </section>
+
+            <div class="myDiv">
+                <h3>This Week's <b>Grumble</b></h3>
+                <h4>SystemVerilog is HARD</h4>
+                <p>SystemVerilog, standardized as IEEE 1800, is a hardware description and hardware verification language used to model, design, simulate, test and implement electronic systems. SystemVerilog is based on Verilog and some extensions, and since 2008 Verilog is now part of the same IEEE standard. It is commonly used in the semiconductor and electronic design industry as an evolution of Verilog.</p>
+              </div>
+              <hr>
+
+              <p>Fashion in Coding <code>Hello Fashion World!</code></p>
+
+              <hr>
+              
+              <p>This week's <strong>IT</strong> color is <span>purple</span></p>
+        </main>
+
+            <aside>
+                <h4>My Personal Fav of <br><em>The Week</em><br></h4>
+                <h5>Dior Lip Glow</h5>
+                <p>Dior Lip Glow with fresh color and moisturizing cream is a product I will use all year round.</p>
+
+                <form action="/action_page.php">
+                <label for="lipglow">Your Review of Dior Lip Glow:</label>
+
+            <textarea id="lipglow" name="lipglow" rows="4" cols="50">
+            Reviews of Dior Lip Glow
+            </textarea>
+
+            <br><br>
+            <input type="submit" value="Submit">
+            </form>
+
+                <video controls>
+                    <source src="dior.mp4" type="video/mp4"></video>
+                </aside>
+
+                <form action="/action_page.php">
+                
+                    <label for="products">Choose your favourite share this week:</label>
+                    <select name="products" id="products">
+                      <optgroup label="Makeups">
+                        <option value="Milktea Lipstick">Milktea Lipstick</option>
+                        <option value="Dior Lip Glow">Dior Lip Glow</option>
+                      </optgroup>
+                      <optgroup label="Clothing">
+                        <option value="Cashmere Sweater">Cashmere Sweater</option>
+                      </optgroup>
+                      <optgroup label="Perfume">
+                        <option value="Peach Perfume">Peach Perfume</option>
+                      </optgroup>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+
+                <nav>
+                    <a href="https://www.vogue.com/magazine">VOGUE</a> |
+                    <a href="https://www.harpersbazaar.coms">BAZAAR</a> |
+                    <a href="https://www.cosmopolitan.com">COSMOPOLITIAN</a>
+                    </nav>
+
+                    <form action="/action_page.php" method="get">
+                        <fieldset>
+                            <legend>Leave your comment here!</legend>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="comment">Comment:</label>
+                        <input type="text" id="comment" name="comment"><br><br>
+                        <input type="submit" value="Submit">
+                        </fieldset>
+                      </form>
+
+                    <section>
+                        <h2>Labs</h2>
+                        <iframe src="https://ucsd.edu" title="ucsd"></iframe>
+                        <canvas id="myCanvas"></canvas>
+                        <script>
+                            var canvas = document.getElementById("myCanvas");
+                            var ctx = canvas.getContext("2d");
+                            ctx.fillStyle = "#e5e5ff";
+                            ctx.fillRect(0, 0, 80, 80);
+                            </script>
+                        <svg>
+                            <circle r="40" fill="lightgreen" />
+                          </svg>
+                          <ol start="100">
+                            <li>Yuyao</li>
+                            <li>Yolanda</li>
+                            <li>Cheng</li>
+                          </ol>
+
+                          <form action="/action_page.php" method="get">
+                            <label for="age">Choose your age from the list:</label>
+                            <input list="ages" name="age" id="age">
+                            <datalist id="ages">
+                              <option value="10-20">
+                              <option value="21-30">
+                              <option value="31-40">
+                              <option value="41-50">
+                              <option value="51-60">
+                            </datalist>
+                            <input type="submit">
+                          </form>
+
+                          <button>Click Click!</button>
+
+                          <template>
+                              <figure>
+                                <figcaption>Another Pic of Me</figcaption>
+                            <img src="another_pic.jpeg" width="250" height="200">
+                            </figure>
+                          </template>
+
+                          
+                          <table>
+                            <caption>My Name and Age</caption>
+                            <colgroup>
+                                <col span = "2" style = "background-color: lightblue">
+                              </colgroup>
+                
+                              <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                              </tr>
+                              <tr>
+                                <td>Yuyao</td>
+                                <td>20</td>
+                              </tr>
+                          </table>
+                    </section>
+
+                    <footer>
+                      <p>Author: Yuyao Yolanda Cheng</p>
+                      <p><a href="y6cheng@ucsd.edu">y6cheng.ucsd.edu</a></p>
+                    </footer>
+</body>
+
+</html>
